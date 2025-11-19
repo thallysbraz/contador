@@ -1,0 +1,135 @@
+.github {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+}
+
+/* Formulário */
+.github__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.github__input {
+  flex: 1;
+  min-width: 260px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  font-size: 14px;
+}
+
+.github__input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.github__button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0f172a;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.github__button:hover {
+  background-color: #020617;
+}
+
+/* Mensagens de estado */
+.github__loading {
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.github__error {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.github__hint {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Resultados */
+.github__results {
+  margin-top: 12px;
+}
+
+.github__title {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.github__empty {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Lista de repositórios */
+.github__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.github__item {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.github__item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.github__repo-name {
+  font-size: 15px;
+  color: #0f172a;
+}
+
+.github__language {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: #eff6ff;
+  color: #1d4ed8;
+}
+
+.github__description {
+  margin: 4px 0 6px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.github__link {
+  font-size: 13px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.github__link:hover {
+  text-decoration: underline;
+}
